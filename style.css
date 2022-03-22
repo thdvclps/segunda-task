@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+* {
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+}
+
+*{
+    padding: 0;
+    background-color: black;
+}
+
+.header {
+    align-content: center;
+    justify-content: center;
+    padding-left: 800px;
+}
+
+.formulario {
+    padding-left: 800px;
+}
+
+button {
+    position: relative;
+    border-radius: 10px;
+    transition: .4s ease-in;
+    z-index: 1;
+}
+
+.btn-1 {
+    
+    justify-content: center;
+    background-color: rgb(73, 73, 73);
+    border-radius: 10px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    
+}
+
+.btn-1:hover {
+    background: #636262;
+    box-shadow: 0 0 5px #636262, 0 0 20px
+    #636262, 0 0 50px #636262, 0 0 200px #636262;
+}
