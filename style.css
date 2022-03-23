@@ -43,3 +43,7 @@ button {
     box-shadow: 0 0 5px #636262, 0 0 20px
     #636262, 0 0 50px #636262, 0 0 200px #636262;
 }
+
+.label {
+    color: red;
+}
