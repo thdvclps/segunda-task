@@ -47,3 +47,17 @@ button {
 .label {
     color: red;
 }
+
+.linha {
+    display: flex;
+    height: 2px;
+    background: #852d2d;
+    box-shadow: 0 0 5px #852d2d, 0 0 20px
+    #852d2d, 0 0 50px #852d2d, 0 0 200px #852d2d;
+}
+
+.linha:hover {
+    background: #ee0303;
+    box-shadow: 0 0 5px #ee0303, 0 0 20px
+    #ee0303, 0 0 50px #ee0303, 0 0 200px #ee0303;
+}
